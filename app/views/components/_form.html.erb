@@ -1,0 +1,6 @@
+<%= simple_form_for component do |f| %>
+  <%= f.input :category, collection: ["button", "card", "avatar"], label:false, prompt: "Choose a category" %>
+  <%= f.input :css, label:false, placeholder: "Write the css" %>
+  <%= f.input :html, label:false, placeholder:"Write the html" %>
+  <%= f.submit yield(:form_submit), class: "btn-flat" %>
+<% end  %>

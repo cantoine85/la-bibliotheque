@@ -1,7 +1,24 @@
-<div>
-  <img src="https://unsplash.it/100/100?random" alt="" class="bordered">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class='btn-circle'>+</div>
+      <ul class='list'>
+        <% @components.each do |component| %>
+          <li>
+            <div style="<%= component.css %>" >Bonjour</div>
+            <div class='list-icons'>
+              <%= link_to edit_component_path(component) do %>
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+              <% end  %>
+              <%= link_to component_path(component), method:'delete' do %>
+                <i class="fa fa-times" aria-hidden="true"></i>
+              <% end  %>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
 </div>
 
-<% @components.each do |component| %>
-  <div style="<%= component.css %>" >Bonjour</div>
-<% end %>
+

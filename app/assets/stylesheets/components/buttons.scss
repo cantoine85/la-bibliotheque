@@ -23,8 +23,16 @@
   border-color: transparent;
 }
 
+.btn-circle {
+  border-radius: 50%;
+  font-family: 'Open-Sans', sans-serif;
+  background: #e34a69;
+  color: white;
+  font-weight: 100;
+  border-color: transparent;
+}
+
 .btn-flat-negative {
-  width:50px;
   background: white;
   color: #e34a69;
   border-bottom: 3px solid #e34a69;

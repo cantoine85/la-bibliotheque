@@ -1,20 +1,17 @@
 <%= content_for(:form_submit) do %>
-  Create
-<% end %>
-<%= content_for(:title) do %>
-  Create new component
+  Edit
 <% end %>
 
 <div class="container">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
+    <div class="text-center margin-bottom">
+      <div style="<%= @component.css %>" >Edit Me</div>
+    </div>
       <%= render 'form', component: @component %>
     </div>
   </div>
 </div>
-
-
-
 
 
 

@@ -1,0 +1,19 @@
+.navbar-biblio {
+  position:relative;
+  background: rgba(0,0,0,0.02);
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  margin-bottom: 50px;
+
+  img {
+    position: absolute;
+    margin: 8px 8px;
+  }
+}
+
+.navbar-title {
+  padding: 30px;
+  text-align: center;
+  font-size: 26px;
+  font-family: "Open-Sans",sans-serif;
+  font-weight: 100;
+}
