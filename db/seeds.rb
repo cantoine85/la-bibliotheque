@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+css="width:50px;
+  font-family: 'Open-Sans', sans-serif;
+  background: #e34a69;
+  color: white;
+  padding: 16px 31px;
+  border-radius: 7%;
+  font-weight: 100;"
+
+Component.create(css:css.squish)

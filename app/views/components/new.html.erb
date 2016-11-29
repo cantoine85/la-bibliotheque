@@ -1,0 +1,16 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <h1>Create a new component</h1>
+      <%= simple_form_for @component do |f| %>
+        <%= f.input :type %>
+        <%= f.input :css %>
+        <%= f.input :html %>
+        <%= f.submit "Create", class: "btn-flat" %>
+      <% end  %>
+    </div>
+  </div>
+</div>
+
+

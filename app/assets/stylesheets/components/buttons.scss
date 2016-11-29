@@ -1,0 +1,124 @@
+// .btn {
+//   color: white;
+//   text-decoration: none;
+//   border: 1px solid white;
+//   padding: 10px 32px;
+//   background-color: rgba(0,0,0,0.1);
+//   display: inline-block;
+//   width: 100px;
+//   font-family: Open-sans;
+//   font-size: 20px;
+//   border-radius: 2px;
+//   margin: 10px 0;
+// }
+
+.btn-flat {
+  // width:50px;
+  font-family: 'Open-Sans', sans-serif;
+  background: #e34a69;
+  color: white;
+  padding: 16px 31px;
+  border-radius: 7%;
+  font-weight: 100;
+  border-color: transparent;
+}
+
+.btn-flat-negative {
+  width:50px;
+  background: white;
+  color: #e34a69;
+  border-bottom: 3px solid #e34a69;
+  font-family: 'Open-Sans', sans-serif;
+  padding: 16px 31px;
+  font-weight: 100;
+}
+
+.btn-apply {
+  background: #3e5368;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 2px;
+}
+
+.btn-apply-2 {
+  background: #0a4784;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 2px;
+  border: 3px double white;
+}
+
+.btn-discover {
+  background: #c4dbad;
+  color: white;
+  border-radius: 23px;
+  padding: 15px 30px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.13);
+}
+
+.btn-discover-2 {
+  background: white;
+  box-shadow: 1px 1px rgba(82, 196, 255, 0.47);
+  border-radius: 10px;
+  color: #52c4ff;
+  padding: 10px 30px;
+}
+
+.btn-live {
+  background: rgb(0, 232, 157);
+  border: 1px solid rgb(0, 232, 157);
+  color: white;
+  border-radius: 2px;
+  letter-spacing: 7px;
+  padding: 10px 50px;
+}
+
+.btn-live-2 {
+  color: rgb(0, 232, 157);
+  border: 1px solid rgb(0, 232, 157);
+  border-radius: 2px;
+  letter-spacing: 7px;
+  padding: 10px 50px;
+}
+
+.btn-ask {
+  background: #f92d39;
+  color: white;
+  border-radius: 3px;
+  padding: 20px 40px;
+}
+
+.blue {
+  color: #3e5368;
+}
+
+
+.button:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+
+.stripe {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.red {
+  background: rgba(210,10,43,1);
+}
+
+.purple {
+  background: rgb(146, 27, 47);
+}
+
+
+
+.cube {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background-image: url("https://unsplash.it/40/40?random");
+}
